@@ -1,0 +1,113 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Login.master.cs" Inherits="WHI138AdminMasterClub.Login" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <meta name="viewport" content="width=device-width" />
+    <title>Admin -</title>
+
+    <meta name="keywords" content="HTML5 Template" />
+    <meta name="description" content="Porto - Responsive HTML5 Template">
+    <meta name="author" content="okler.net">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- Web Fonts  -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light" rel="stylesheet" type="text/css">
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendor/animate/animate.min.css">
+    <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.min.css">
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.min.css">
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/theme-elements.css">
+    <link rel="stylesheet" href="css/theme-blog.css">
+    <link rel="stylesheet" href="css/theme-shop.css">
+
+    <!-- Current Page CSS -->
+    <link rel="stylesheet" href="vendor/rs-plugin/css/settings.css">
+    <link rel="stylesheet" href="vendor/rs-plugin/css/layers.css">
+    <link rel="stylesheet" href="vendor/rs-plugin/css/navigation.css">
+    <link rel="stylesheet" href="vendor/circle-flip-slideshow/css/component.css">
+
+    <!-- Skin CSS -->
+    <link rel="stylesheet" href="css/skins/default.css">
+
+
+    <!-- Theme Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="full-img-body height-vh match-height">
+    <form id="form1" runat="server">
+        <div class=" match-height" style="background-color: #2b2b2b;height: 625px;">
+            <div>
+                <div role="main" class="main ">
+                    <asp:ContentPlaceHolder ID="conteudo" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+        <!-- Vendor -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/jquery.appear/jquery.appear.min.js"></script>
+        <script src="vendor/jquery.easing/jquery.easing.min.js"></script>
+        <script src="vendor/jquery-cookie/jquery-cookie.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+        <script src="vendor/common/common.min.js"></script>
+        <script src="vendor/jquery.validation/jquery.validation.min.js"></script>
+        <script src="vendor/jquery.easy-pie-chart/jquery.easy-pie-chart.min.js"></script>
+        <script src="vendor/jquery.gmap/jquery.gmap.min.js"></script>
+        <script src="vendor/jquery.lazyload/jquery.lazyload.min.js"></script>
+        <script src="vendor/isotope/jquery.isotope.min.js"></script>
+        <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+        <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+        <script src="vendorvidevide.min.js"></script>
+
+        <!-- Theme Base, Components and Settings -->
+        <script src="js/theme.js"></script>
+
+        <!-- Current Page Vendor and Views -->
+        <script src="vendor/jquery.mask/jquery.mask.js"></script>
+
+        <!-- Theme Custom -->
+        <script src="js/custom.js"></script>
+
+        <!-- Theme Initialization Files -->
+        <script src="js/theme.init.js"></script>
+
+        <!-- Examples -->
+        <script src="js/examples/examples.demos.js"></script>
+        <asp:ContentPlaceHolder ID="footer" runat="server">
+        </asp:ContentPlaceHolder>
+        <script>
+            $(document).ready(function () {
+                if (window.innerWidth >= 813) {
+                    if (window.innerWidth < 812) {
+                        var widthLogin = parseInt($('.featured-boxes').css('width').replace('px', '')) - 30;
+                        var heightLogin = parseInt($('.featured-boxes').css('height').replace('px', '')) + 150;
+                        $('head').append('<style>.svg-login:after,.svg-login:before{height:' + heightLogin + 'px!important;width:' + widthLogin + 'px!important;margin-left:' + (- widthLogin / 2) + 'px!important}</style')
+                    }
+                    if ((window.innerWidth < 733)) {
+                        var widthLogin = parseInt($('.featured-boxes').css('width').replace('px', '')) + 70;
+                        var heightLogin = parseInt($('.featured-boxes').css('height').replace('px', '')) + 70;
+                        $('head').append('<style>.svg-login:after,.svg-login:before{height:' + heightLogin + 'px!important;width:' + widthLogin + 'px!important;margin-left:' + (- widthLogin / 2) + 'px!important}</style')
+                    }
+                }
+            })
+        </script>
+    </form>
+</body>
+</html>
