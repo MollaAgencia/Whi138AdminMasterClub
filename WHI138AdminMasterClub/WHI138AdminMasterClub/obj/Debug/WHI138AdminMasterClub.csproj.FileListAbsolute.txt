@@ -29,13 +29,11 @@ C:\Users\Felippe Augusto\Documents\GitHub\Whi138AdminMasterClub\WHI138AdminMaste
 C:\Users\Felippe Augusto\Documents\GitHub\Whi138AdminMasterClub\WHI138AdminMasterClub\WHI138AdminMasterClub\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\Felippe Augusto\Documents\GitHub\Whi138AdminMasterClub\WHI138AdminMasterClub\WHI138AdminMasterClub\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\Felippe Augusto\Documents\GitHub\Whi138AdminMasterClub\WHI138AdminMasterClub\WHI138AdminMasterClub\bin\MollaLibrary.dll
-C:\Users\Felippe Augusto\Documents\GitHub\Whi138AdminMasterClub\WHI138AdminMasterClub\WHI138AdminMasterClub\bin\EntityFramework.dll
 C:\Users\Felippe Augusto\Documents\GitHub\Whi138AdminMasterClub\WHI138AdminMasterClub\WHI138AdminMasterClub\bin\Newtonsoft.Json.dll
 C:\Users\Felippe Augusto\Documents\GitHub\Whi138AdminMasterClub\WHI138AdminMasterClub\WHI138AdminMasterClub\bin\MollaLibrary.pdb
 C:\Users\Felippe Augusto\Documents\GitHub\Whi138AdminMasterClub\WHI138AdminMasterClub\WHI138AdminMasterClub\bin\MollaLibrary.xml
 C:\Users\Felippe Augusto\Documents\GitHub\Whi138AdminMasterClub\WHI138AdminMasterClub\WHI138AdminMasterClub\bin\MollaLibrary.dll.config
 C:\Users\Felippe Augusto\Documents\GitHub\Whi138AdminMasterClub\WHI138AdminMasterClub\WHI138AdminMasterClub\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Felippe Augusto\Documents\GitHub\Whi138AdminMasterClub\WHI138AdminMasterClub\WHI138AdminMasterClub\bin\EntityFramework.xml
 C:\Users\Felippe Augusto\Documents\GitHub\Whi138AdminMasterClub\WHI138AdminMasterClub\WHI138AdminMasterClub\bin\Newtonsoft.Json.pdb
 C:\Users\Felippe Augusto\Documents\GitHub\Whi138AdminMasterClub\WHI138AdminMasterClub\WHI138AdminMasterClub\bin\Newtonsoft.Json.xml
 C:\Users\Felippe Augusto\Documents\GitHub\Whi138AdminMasterClub\WHI138AdminMasterClub\WHI138AdminMasterClub\obj\Debug\WHI138AdminMasterClub.csprojAssemblyReference.cache
